@@ -1,0 +1,36 @@
+.viewList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    min-width: 30rem;
+    min-height: 40rem;
+    border: 5px solid teal;
+    padding: 20px 10px;
+    border-radius: 12px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board__title {
+    font-size: 1.5rem;
+    color:teal;
+    font-weight: 700;
+  }
+
+.item{
+    display: flex;
+    flex-direction: column;
+    color: rgb(92, 119, 119);
+    border: solid 2px rgb(92, 119, 119);
+    margin: 5px 0;
+    cursor: grab;
+    padding: 10px;
+    border-radius: 6px;
+    width: 200px;
+    align-items: center;
+}

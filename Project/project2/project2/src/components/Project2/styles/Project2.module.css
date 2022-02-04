@@ -1,0 +1,26 @@
+.pr{
+    display: flex;
+    justify-content: center;
+}
+
+.project2 {
+    width: 800px;
+}
+
+.post__btns {
+    display: flex;
+}
+
+.post {
+    display: flex;
+    padding: 15px;
+    border: 2px solid teal;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page {
+    padding: 10px;
+    border: 1px solid teal;
+}
